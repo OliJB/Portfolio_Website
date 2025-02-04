@@ -10,22 +10,37 @@ const Hero = () => {
 
     return (
       <>
-      <div className="w-full px-4 sm:px-12 md:px-24 lg:px-56">
+      <div className="w-full px-4 sm:px-12 md:px-24 lg:px-36 xl:px-56">
       <div className="w-full h-fit flex flex-row">
-        <div className='w-3/4 h-fit py-20 px-0 flex justify-left flex-col mb-2'>
-          <h1 className='font-barlow text-black text-7xl p-0'>Oliver Bradbury</h1>
-          <h2 className="font-montserrat text-black text-4xl pt-5">I am a Software Engineer</h2>
-          <p className='font-montserrat text-black pt-5 text-lg min-h-28'>
+
+
+        <div className='w-full h-fit pt-0 pb-20 px-0 flex justify-left flex-col mb-2 text-black lg:py-20 lg:w-3/4'>
+
+        <div className="md:hidden block w-1/2 items-center aspect-square overflow-hidden rounded-full mx-auto">
+          <img
+            src="ojb-placeholder-image.jpg"
+            alt="Placeholder"
+            className="object-cover"
+          />
+        </div>
+
+          <h1 className="font-barlow text-xl py-2">Hi I'm</h1>
+          <h2 className='font-barlow text-7xl p-0'>Oliver Bradbury</h2>
+          <h3 className="font-montserrat text-3xl pt-3">A Software Engineer</h3>
+          <p className='font-montserrat pt-5 text-lg min-h-28'>
           <Typewriter text= "Recently graduated, seeking opportunities to broaden my horizons in the field of software engineering. I’m particularly intrested in roles where I can contribute to meaningful projects, continue learning from industry professionals" speed={15} /> 
           </p>
         </div>
-        <div className="w-1/4 h-full items-center aspect-square overflow-hidden rounded-full">
-      <img
-        src="ojb-placeholder-image.jpg"
-        alt="Placeholder"
-        className="object-cover"
-      />
+
+        <div className="hidden md:block w-1/4 h-full items-center aspect-square overflow-hidden rounded-full mx-auto">
+          <img
+            src="ojb-placeholder-image.jpg"
+            alt="Placeholder"
+            className="object-cover"
+          />
         </div>
+
+
       </div>
 
         <div className='w-full h-fit m-auto shadow-2xl'> 
