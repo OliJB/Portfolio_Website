@@ -10,6 +10,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'navy-clr': '#0a192f',
+        'orng-clr': '#DD571C',
+        'dark-bkg': '#242424',
+        'light-gry': '#e4e3e5',
+
+      },
+      fontFamily: {
+        barlow: ['"Barlow Condensed"', 'sans-serif'], // Add the custom font
+        montserrat: ['"Montserrat"', 'sans-serif'],
       },
     },
   },

@@ -1,21 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Montserrat&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Makes sure navigation is smooth across the site */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  
+/* Blinking effect for the typewriter */
+.blinking-cursor {
+  display: inline-block;
+  width: 8px;
+  background-color: transparent;
+  animation: blink 1s steps(1, start) infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes blink {
+  50% {
+    background-color: black;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+.blinking-cursor-white {
+  display: inline-block;
+  width: 8px;
+  background-color: transparent;
+  animation: blink-white 1s steps(1, start) infinite; /* New animation name */
+}
+
+@keyframes blink-white { /* New keyframes name */
+  50% {
+    background-color: white; /* White color */
+  }
 }
