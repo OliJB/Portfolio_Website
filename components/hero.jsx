@@ -18,8 +18,8 @@ const Hero = () => {
 
         <div className="md:hidden block w-1/2 items-center aspect-square overflow-hidden rounded-full mx-auto">
           <img
-            src="ojb-placeholder-image.jpg"
-            alt="Placeholder"
+            src="OJBprofileImage.jpg"
+            alt="ProfileImage"
             className="object-cover"
           />
         </div>
@@ -34,7 +34,7 @@ const Hero = () => {
 
         <div className="hidden md:block w-1/4 h-full items-center aspect-square overflow-hidden rounded-full mx-auto">
           <img
-            src="ojb-placeholder-image.jpg"
+            src="OB_profile_image.jpg"
             alt="Placeholder"
             className="object-cover"
           />
