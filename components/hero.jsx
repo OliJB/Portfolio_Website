@@ -28,14 +28,14 @@ const Hero = () => {
           <h2 className='font-barlow text-7xl p-0'>Oliver Bradbury</h2>
           <h3 className="font-montserrat text-3xl pt-3">A Software Engineer</h3>
           <p className='font-montserrat pt-5 text-lg min-h-28'>
-          <Typewriter text= "Recently graduated, seeking opportunities to broaden my horizons in the field of software engineering. I’m particularly intrested in roles where I can contribute to meaningful projects, continue learning from industry professionals" speed={15} /> 
+          <Typewriter text= "Recently graduated, seeking opportunities to broaden my horizons in the field of software engineering. I’m particularly intrested in roles where I can contribute to meaningful projects and continue learning from industry professionals." speed={14} /> 
           </p>
         </div>
 
         <div className="hidden md:block w-1/4 h-full items-center aspect-square overflow-hidden rounded-full mx-auto">
           <img
-            src="OB_profile_image.jpg"
-            alt="Placeholder"
+            src="OJBprofileImage.jpg"
+            alt="ProfileImage"
             className="object-cover"
           />
         </div>
@@ -59,10 +59,10 @@ const Hero = () => {
           </div>
         
           <div className='bg-slate-700 text-white font-sans rounded-b-md p-3'>
-            <p>&gt; Oli.CurrentLocation</p>
+            <p>&gt; .\CurrentLocation</p>
             <p className='text-orange-400 pl-1'>["London / Essex"]</p>
             <br/>
-            <p>&gt; Oli.ContactInfo</p>
+            <p>&gt; .\ContactInfo</p>
             <span className='text-orange-400 pl-1'>
             ["<Link href="https://github.com/OliJB" className="text-cyan-400" target="_blank">Github</Link>",&nbsp;
             " <Link href="https://www.linkedin.com/in/oliver-bradbury-88623224a/" className="text-cyan-400" target="_blank">Linkedin</Link>",&nbsp;&nbsp;" 
@@ -70,13 +70,13 @@ const Hero = () => {
               <ToastContainer />
             </span>
             <br/>
-            <p>&gt; Oli.Interests</p>
+            <p>&gt; .\Interests</p>
             <p className='text-orange-400 pl-1'>["Hiking", "Muay Thai", "Mountain Biking"]</p>
             <br/>
-            <p>&gt; Oli.Education</p>
+            <p>&gt; .\Education</p>
             <p className='text-orange-400 pl-1'>["Bsc Software Engineering - Nottingham Trent University"]</p>
             <br/>
-            <p>&gt; Oli.Skills</p>
+            <p>&gt; .\Skills</p>
             <p className='text-orange-400 pl-1'>["Java", "Python", "C++"", "Js", "React", "Tailwind", "Git"]</p>
             <br/>
             <p>&gt; <span className="blinking-cursor-white">&nbsp;</span></p>
