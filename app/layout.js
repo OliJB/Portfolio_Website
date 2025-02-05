@@ -3,7 +3,7 @@ import Navbar from "@/components/navbar";
 
 
 export const metadata = {
-  title: "Oliver Bradbury",
+  title: "Oliver's Portfolio",
   description: "Portfolio website conaining my programming projects",
 };
 
