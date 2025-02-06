@@ -14,7 +14,6 @@ const Typewriter = ({ text, speed = 50 }) => {
       }, speed);
       return () => clearTimeout(timeout);
     } else {
-      // Stop cursor blinking when typing is complete
       setTimeout(() => setShowCursor(false), 3000);
     }
   }, [index, text, speed]);
