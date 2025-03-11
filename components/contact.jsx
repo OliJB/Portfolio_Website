@@ -7,7 +7,7 @@ import Link from 'next/link';
 const Contact = () => {
     return (
     <>
-        <div className="pb-20 lg:pb-60 items-center justify-center flex flex-col pt-20 bg-black text-white w-full">
+        <div className="pb-20 lg:pb-60 items-center justify-center flex flex-col pt-20 bg-black text-white w-full 2xl:text-xl">
             <h1 className="mb-5">Contact</h1>
             <span className="flex flex-col justify-center items-center ">
             <EmailLink email="oliver.bradbury@icloud.com" />
