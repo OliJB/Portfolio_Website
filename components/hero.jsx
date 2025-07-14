@@ -24,10 +24,10 @@ const Hero = () => {
             {/* Written into + "Typewriter" for typing effect */}
             <h1 className="font-barlow text-xl py-2 2xl:text-2xl">Hi I'm</h1>
             <h2 className="font-barlow text-7xl p-0 2xl:text-8xl">Oliver Bradbury</h2>
-            <h3 className="font-montserrat text-3xl pt-3 2xl:text-4xl">A Software Engineer</h3>
+            <h3 className="font-montserrat text-3xl pt-3 2xl:text-4xl">A Software Engineering Graduate</h3>
             <p className="font-montserrat pt-5 text-lg min-h-28 2xl:text-xl 2xl:pr-52">
               <Typewriter
-                text="Recently graduated, seeking opportunities to broaden my horizons in the field of software engineering. I’m particularly intrested in roles where I can contribute to meaningful projects and continue learning from industry professionals."
+                text="Recently graduated, seeking opportunities to broaden my horizons in the field of Business Analysis. I’m particularly intrested in roles where I can contribute to meaningful projects and continue learning from industry professionals."
                 speed={14}
               />
             </p>
@@ -101,7 +101,7 @@ const Hero = () => {
             <br />
             <p>&gt; .\Skills</p>
             <p className="text-orange-400 pl-1">
-              ["Java", "Python", "C++"", "Js", "React", "Tailwind", "Git"]
+              ["Java", "Python", "C++"", "React", "Git", "UML", "Power BI"]
             </p>
             <br />
             <p>
